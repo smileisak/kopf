@@ -32,7 +32,7 @@ matrix:
     - python: "3.8-dev"
 
 before_script:
-  - tools/minikube-for-travis.sh
+  - tools/kind-for-travis.sh
 
 script:
   - pytest -v

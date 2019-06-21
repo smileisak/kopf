@@ -25,3 +25,7 @@ junit.xml
 # Documentation
 docs/_build
 docs/packages
+
+.vscode
+
+env
